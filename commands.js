@@ -29,6 +29,8 @@ function showHelp() {
   writeOutput('while <cond> do <command>');
   writeOutput('-- single line comment');
   writeOutput('/-- multi line comment --/');
+  writeOutput('log {variable}'
+  writeOutput('upper {variable}, etc.')
 }
 
 function resolveVars(text) {
