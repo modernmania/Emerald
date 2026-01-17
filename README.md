@@ -5,7 +5,7 @@
 
 ---
 
-[![badgey badge](https://img.shields.io/badge/Emerald_Basic-Latest-green)](https://github.com/AModernAnimator/Emerald/releases/tag/Basic) [![badgey badge](https://img.shields.io/badge/Emerald_Dull-Latest-darkgreen)](https://github.com/AModernAnimator/Emerald/releases/tag/Dull)
+[![badgey badge](https://img.shields.io/badge/Emerald_Basic-Latest-green)](https://github.com/AModernAnimator/Emerald/releases/tag/Basic) [![badgey badge](https://img.shields.io/badge/Emerald_Dull-Latest-rgb#00664e)](https://github.com/AModernAnimator/Emerald/releases/tag/Dull)
 
 
 > Emerald is a scripting language created by **@AModernAnimator** and **@Sushi-byte-glitch**, designed for **web development**, **data management**, and **applications**.  
