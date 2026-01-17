@@ -9,7 +9,7 @@
 
 ---
 
-*Current versions : Basic v.1.0 and Dull v.0.5 (in progress)*
+*Current versions : Basic v.1.0 and Dull v.0.5*
 
 ---
 
