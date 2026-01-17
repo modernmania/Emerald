@@ -96,7 +96,7 @@ Comments can be:
 // multi-line //
 ```
  <sub><sup>**AI was used** for:
-much more complex code, as this was done by a 11 and a 12 year old,
-things like figuring out how to add a shields.io button,
+much more complex code, as this was done by a 11 and a 12 year old;
+things like figuring out how to add a shields.io button;
 and other minor things.</sup></sub>
 
