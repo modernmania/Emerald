@@ -4,7 +4,7 @@ Emerald
 
 ---
 
-[![Basic Latest Release](https://img.shields.io/badge/Basic%20Latest-Download%20Now-green?style=for-the-badge)](https://github.com/AModernAnimator/Emerald/releases/latest)
+[![Basic Latest Release](https://img.shields.io/badge/Basic%20Latest-Download%20Now-50C878?style=for-the-badge&logo=github)](https://github.com/AModernAnimator/Emerald/releases/latest)
 
 
 
