@@ -22,7 +22,7 @@ Emerald is inspired by **Python’s readability**, with some influences from **J
 
 ---
 
-## 🚀 Versions
+## Versions
 
 | Version | Description | Best For |
 |---------|-------------|----------|
@@ -32,7 +32,7 @@ Emerald is inspired by **Python’s readability**, with some influences from **J
 
 ---
 
-## 🧪 Example Script (Basic)
+## Example Script (Basic)
 
 ```emerald
 <type=basic>
@@ -46,7 +46,7 @@ while(true)[
 ]
 ```
 
-# 📥 Install Emerald
+# Install Emerald
 
 **Install Emerald in your repo:**
 
@@ -64,9 +64,9 @@ while(true)[
 
    ```python emerald.py <script.emlg>```
 
-# 🔧 Quick Start
+# Quick Start
 ## Basic
-**✅ Create a script**
+**Create a script**
 
 Create a file called ```example.emlg```:
 ```
@@ -77,10 +77,10 @@ while({x} > 0)[
   var x = {x} - 1
 ]
 ```
-✅ Run it
+Run it
 ```python emerald.py example.emlg```
 
-📌 Notes
+## Notes
 
 - delay is measured in milliseconds
 
