@@ -101,7 +101,7 @@ func editFile(file string) {
 		}
 		line := scanner.Text()
 
-		if strings.TrimSpace(line) == "ESC" {
+		if strings.TrimSpace(line) == "exit" {
 			menuEditor(content, path)
 			return
 		}
