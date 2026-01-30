@@ -1,0 +1,12 @@
+print"🚀 EMERALD MATH DEMO"
+print"=================="
+var [
+  x = 10
+  y = 5
+]
+print{x + y}
+print{x * y}
+print"Answer time!"
+input(plc("What's 2+2? "))
+print"LAST_INPUT was: " + str(LAST_INPUT)
+print"DONE!"
