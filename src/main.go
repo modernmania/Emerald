@@ -94,7 +94,7 @@ func main() {
 	if len(os.Args) < 3 {
 		fmt.Println("Usage:")
 		fmt.Println("  emeraldc build <file.emer>")
-		fmt.Println("  emeraldc run <file.emer|file.emc>")
+		fmt.Println("  emeraldc run <file.emer|file.emec>")
 		os.Exit(1)
 	}
 
@@ -112,14 +112,14 @@ func main() {
 			fmt.Printf("Compile error: %v\n", err)
 			os.Exit(1)
 		}
-		outPath := strings.TrimSuffix(path, filepath.Ext(path)) + ".emc"
+		outPath := strings.TrimSuffix(path, filepath.Ext(path)) + ".emec"
 		if err := writeProgram(outPath, prog); err != nil {
 			fmt.Printf("Write error: %v\n", err)
 			os.Exit(1)
 		}
 		fmt.Printf("Wrote %s\n", outPath)
 	case "run":
-		if strings.HasSuffix(strings.ToLower(path), ".emc") {
+		if strings.HasSuffix(strings.ToLower(path), ".emec") {
 			prog, err := readProgram(path)
 			if err != nil {
 				fmt.Printf("Load error: %v\n", err)
@@ -133,7 +133,7 @@ func main() {
 			return
 		}
 		if !strings.HasSuffix(strings.ToLower(path), ".emer") {
-			fmt.Println("run expects a .emer or .emc file")
+			fmt.Println("run expects a .emer or .emec file")
 			os.Exit(1)
 		}
 		prog, err := compileFile(path)
@@ -230,7 +230,6 @@ func tokenize(src string) ([]Token, error) {
 		case '\n':
 			flushLine()
 		case '\r':
-			// ignore
 		default:
 			line.WriteRune(r)
 		}
