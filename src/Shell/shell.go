@@ -67,7 +67,7 @@ func touch(path string) error {
 	if !strings.HasSuffix(strings.ToLower(path), ".emer") {
 		return fmt.Errorf("file must end with .emer")
 	}
-	f, err := os.OpenFile(path, os.O_CREATE, 0644)
+	f, err := os.OpenFile(path, os.O_WRONLY|os.O_CREATE, 0644)
 	if err != nil {
 		return err
 	}
