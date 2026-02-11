@@ -9,6 +9,6 @@
 
 ---
 
-> Emerald is a dynamically typed, high-level compiled programming language written in Golang, created by **@AModernAnimator** & **@Sushi-byte-glitch**. It is designed for **backend**, **frontend**, and **data**.
+> Emerald is a dynamically typed, high-level compiled programming language written in Golang, created by **@AModernAnimator**. It is designed for **backend**, **frontend**, and **data**.
 
 [Documentation](https://gemcreative.github.io/EmeraldDocumentation/)
