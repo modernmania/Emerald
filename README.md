@@ -9,6 +9,6 @@
 
 ---
 
-> Emerald is a dynamically typed, high-level compiled programming language written in **Rust**, created by **@AModernAnimator** and **@Sushi_byte_glitch**. It is designed for **backend**, **frontend**, and **data**.
+> Emerald is a loosely typed, high-level compiled programming language with low-level capabilities created by **@AModernAnimator** and **@Sushi-byte-glitch**. It is designed for **backend**, **frontend**, and **data**.
 
 ## [Documentation](https://emeralddocs.readthedocs.io/en/latest/)
