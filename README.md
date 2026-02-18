@@ -1,4 +1,3 @@
-<img src="emer.png" width="50">
 
 ## Emerald
 
