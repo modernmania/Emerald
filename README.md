@@ -1,4 +1,4 @@
-<img src="emer.png" width="300">
+<img src="emer.png" width="70">
 
 # Emerald
 
